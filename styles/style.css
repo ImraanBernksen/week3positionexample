@@ -1,0 +1,41 @@
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: static;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: lime;
+    min-width: 100vw;
+    min-height: 100vh;
+    
+}
+
+#left {
+    background-color: blue;
+    width: 500px;
+    min-height: 100vh;
+    float: left;
+}    
+
+#right {
+   background-color: gold;
+   width: 500px;
+   float: right;
+   min-height: 100vh;
+}
